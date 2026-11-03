@@ -21,7 +21,3 @@ Lo bueno o malo que es un modelo, se evalúa mediante métricas. Para cada caso,
 
     - Clasificación: Precisión
     - Regresión: MAE, MSE, RMSE
-
-$$
-h = 2
-$$
