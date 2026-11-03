@@ -1,6 +1,6 @@
 # Lab 1
 
-![[LAB1_1.png]]
+![](../media/LAB1_1.png)
 
 La Inteligencia Artificial es la rama de la informática que busca reconocer y razonar (Nota del autor: Ahora se le dice IA a todo a modo de etiqueta comercial, realmente los modelos basados en IA son algoritmos para automatizar procesos, a mi me gusta a veces llamarlo: estadística al "trancazo").
 
