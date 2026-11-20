@@ -1,0 +1,9 @@
+,Pregunta,DataFrame usado,Respuesta
+0,¿Cuál es el evento con mayor asistencia total?,eventos,El evento con mayor asistencia total es el evento 29 con un total de 9879 asistentes.
+1,¿Cuál es el rango de edad que asiste más frecuentemente a los eventos?,eventos + aficionados,"Número de aficionados por rango de edad: Edad Discreta
+Menor (0 - 18)       2
+Jóven (19 - 35)     22
+Adulto (36 - 65)    26
+Name: id_aficionado, dtype: int64"
+2,¿Qué medio publicitario ha generado mayor impacto en términos de asistencia?,eventos + promociones,El medio publicitario que ha generado mayor impacto ha sido la radio.
+3,¿Cuál es la ubicación de residencia que más aficionados aporta a los eventos?,eventos + aficionados,La ubicación que más aporta a los eventos es la Ciudad A.
