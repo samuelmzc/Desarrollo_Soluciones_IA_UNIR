@@ -1,9 +1,521 @@
 ,Pregunta,DataFrame usado,Respuesta
-0,¿Cuál es el evento con mayor asistencia total?,eventos,El evento con mayor asistencia total es el evento 29 con un total de 9879 asistentes.
-1,¿Cuál es el rango de edad que asiste más frecuentemente a los eventos?,eventos + aficionados,"Número de aficionados por rango de edad: Edad Discreta
+0,¿Cuál es el evento con mayor asistencia total?,"    id_evento nombre_evento fecha_evento ubicación_evento  asistentes_totales
+0           1      Evento 1   2023-01-01         Ciudad C                1292
+1           2      Evento 2   2023-01-02         Ciudad A                9629
+2           3      Evento 3   2023-01-03         Ciudad A                 254
+3           4      Evento 4   2023-01-04         Ciudad D                8914
+4           5      Evento 5   2023-01-05         Ciudad C                7647
+5           6      Evento 6   2023-01-06         Ciudad D                4950
+6           7      Evento 7   2023-01-07         Ciudad C                7734
+7           8      Evento 8   2023-01-08         Ciudad A                7323
+8           9      Evento 9   2023-01-09         Ciudad D                6840
+9          10     Evento 10   2023-01-10         Ciudad B                4104
+10         11     Evento 11   2023-01-11         Ciudad A                1755
+11         12     Evento 12   2023-01-12         Ciudad A                7280
+12         13     Evento 13   2023-01-13         Ciudad A                8121
+13         14     Evento 14   2023-01-14         Ciudad A                9761
+14         15     Evento 15   2023-01-15         Ciudad D                4243
+15         16     Evento 16   2023-01-16         Ciudad A                3316
+16         17     Evento 17   2023-01-17         Ciudad C                 739
+17         18     Evento 18   2023-01-18         Ciudad C                1960
+18         19     Evento 19   2023-01-19         Ciudad C                4442
+19         20     Evento 20   2023-01-20         Ciudad A                8914
+20         21     Evento 21   2023-01-21         Ciudad B                9634
+21         22     Evento 22   2023-01-22         Ciudad B                4028
+22         23     Evento 23   2023-01-23         Ciudad A                 520
+23         24     Evento 24   2023-01-24         Ciudad D                9764
+24         25     Evento 25   2023-01-25         Ciudad B                6755
+25         26     Evento 26   2023-01-26         Ciudad B                8913
+26         27     Evento 27   2023-01-27         Ciudad B                1428
+27         28     Evento 28   2023-01-28         Ciudad C                8188
+28         29     Evento 29   2023-01-29         Ciudad C                9879
+29         30     Evento 30   2023-01-30         Ciudad B                 271
+30         31     Evento 31   2023-01-31         Ciudad A                9137
+31         32     Evento 32   2023-02-01         Ciudad C                7107
+32         33     Evento 33   2023-02-02         Ciudad C                2353
+33         34     Evento 34   2023-02-03         Ciudad D                1511
+34         35     Evento 35   2023-02-04         Ciudad B                1852
+35         36     Evento 36   2023-02-05         Ciudad C                8192
+36         37     Evento 37   2023-02-06         Ciudad A                1520
+37         38     Evento 38   2023-02-07         Ciudad D                6614
+38         39     Evento 39   2023-02-08         Ciudad A                3032
+39         40     Evento 40   2023-02-09         Ciudad C                6055
+40         41     Evento 41   2023-02-10         Ciudad C                 140
+41         42     Evento 42   2023-02-11         Ciudad A                3612
+42         43     Evento 43   2023-02-12         Ciudad C                7642
+43         44     Evento 44   2023-02-13         Ciudad B                4226
+44         45     Evento 45   2023-02-14         Ciudad B                3188
+45         46     Evento 46   2023-02-15         Ciudad C                4582
+46         47     Evento 47   2023-02-16         Ciudad A                1703
+47         48     Evento 48   2023-02-17         Ciudad B                 615
+48         49     Evento 49   2023-02-18         Ciudad C                2461
+49         50     Evento 50   2023-02-19         Ciudad C                 160",El evento con mayor asistencia total es el evento 29 con un total de 9879 asistentes.
+1,¿Cuál es el rango de edad que asiste más frecuentemente a los eventos?,"    id_evento nombre_evento fecha_evento ubicación_evento  asistentes_totales  \
+0           3      Evento 3   2023-01-03         Ciudad A                 254   
+1           3      Evento 3   2023-01-03         Ciudad A                 254   
+2           3      Evento 3   2023-01-03         Ciudad A                 254   
+3           5      Evento 5   2023-01-05         Ciudad C                7647   
+4           5      Evento 5   2023-01-05         Ciudad C                7647   
+5           7      Evento 7   2023-01-07         Ciudad C                7734   
+6           8      Evento 8   2023-01-08         Ciudad A                7323   
+7           8      Evento 8   2023-01-08         Ciudad A                7323   
+8           8      Evento 8   2023-01-08         Ciudad A                7323   
+9           9      Evento 9   2023-01-09         Ciudad D                6840   
+10         10     Evento 10   2023-01-10         Ciudad B                4104   
+11         10     Evento 10   2023-01-10         Ciudad B                4104   
+12         11     Evento 11   2023-01-11         Ciudad A                1755   
+13         11     Evento 11   2023-01-11         Ciudad A                1755   
+14         13     Evento 13   2023-01-13         Ciudad A                8121   
+15         13     Evento 13   2023-01-13         Ciudad A                8121   
+16         14     Evento 14   2023-01-14         Ciudad A                9761   
+17         15     Evento 15   2023-01-15         Ciudad D                4243   
+18         15     Evento 15   2023-01-15         Ciudad D                4243   
+19         19     Evento 19   2023-01-19         Ciudad C                4442   
+20         19     Evento 19   2023-01-19         Ciudad C                4442   
+21         21     Evento 21   2023-01-21         Ciudad B                9634   
+22         21     Evento 21   2023-01-21         Ciudad B                9634   
+23         24     Evento 24   2023-01-24         Ciudad D                9764   
+24         24     Evento 24   2023-01-24         Ciudad D                9764   
+25         25     Evento 25   2023-01-25         Ciudad B                6755   
+26         25     Evento 25   2023-01-25         Ciudad B                6755   
+27         28     Evento 28   2023-01-28         Ciudad C                8188   
+28         28     Evento 28   2023-01-28         Ciudad C                8188   
+29         28     Evento 28   2023-01-28         Ciudad C                8188   
+30         29     Evento 29   2023-01-29         Ciudad C                9879   
+31         33     Evento 33   2023-02-02         Ciudad C                2353   
+32         33     Evento 33   2023-02-02         Ciudad C                2353   
+33         36     Evento 36   2023-02-05         Ciudad C                8192   
+34         37     Evento 37   2023-02-06         Ciudad A                1520   
+35         37     Evento 37   2023-02-06         Ciudad A                1520   
+36         38     Evento 38   2023-02-07         Ciudad D                6614   
+37         38     Evento 38   2023-02-07         Ciudad D                6614   
+38         41     Evento 41   2023-02-10         Ciudad C                 140   
+39         43     Evento 43   2023-02-12         Ciudad C                7642   
+40         43     Evento 43   2023-02-12         Ciudad C                7642   
+41         44     Evento 44   2023-02-13         Ciudad B                4226   
+42         44     Evento 44   2023-02-13         Ciudad B                4226   
+43         45     Evento 45   2023-02-14         Ciudad B                3188   
+44         45     Evento 45   2023-02-14         Ciudad B                3188   
+45         45     Evento 45   2023-02-14         Ciudad B                3188   
+46         46     Evento 46   2023-02-15         Ciudad C                4582   
+47         48     Evento 48   2023-02-17         Ciudad B                 615   
+48         48     Evento 48   2023-02-17         Ciudad B                 615   
+49         49     Evento 49   2023-02-18         Ciudad C                2461   
+
+    id_aficionado nombre_aficionado  edad género ubicación_residencia  \
+0               2      Aficionado 2    20      F             Ciudad D   
+1              39     Aficionado 39    23      M             Ciudad D   
+2              47     Aficionado 47    48      M             Ciudad D   
+3              16     Aficionado 16    51      F             Ciudad D   
+4              19     Aficionado 19    42      M             Ciudad D   
+5              21     Aficionado 21    34      F             Ciudad D   
+6              12     Aficionado 12    47      F             Ciudad B   
+7              40     Aficionado 40    30      F             Ciudad D   
+8              42     Aficionado 42    31      M             Ciudad D   
+9              27     Aficionado 27    28      F             Ciudad C   
+10             29     Aficionado 29    23      M             Ciudad A   
+11             30     Aficionado 30    21      F             Ciudad C   
+12              8      Aficionado 8    49      M             Ciudad B   
+13             43     Aficionado 43    19      F             Ciudad B   
+14             10     Aficionado 10    23      M             Ciudad B   
+15             18     Aficionado 18    47      M             Ciudad A   
+16              5      Aficionado 5    36      M             Ciudad C   
+17             11     Aficionado 11    20      F             Ciudad A   
+18             25     Aficionado 25    57      F             Ciudad C   
+19             38     Aficionado 38    21      M             Ciudad A   
+20             45     Aficionado 45    52      F             Ciudad C   
+21              9      Aficionado 9    40      M             Ciudad C   
+22             41     Aficionado 41    21      F             Ciudad A   
+23             14     Aficionado 14    20      F             Ciudad A   
+24             33     Aficionado 33    49      M             Ciudad B   
+25              3      Aficionado 3    20      F             Ciudad A   
+26             50     Aficionado 50    42      M             Ciudad B   
+27             17     Aficionado 17    45      M             Ciudad A   
+28             20     Aficionado 20    52      F             Ciudad D   
+29             26     Aficionado 26    45      M             Ciudad C   
+30             49     Aficionado 49    23      F             Ciudad A   
+31              4      Aficionado 4    36      F             Ciudad B   
+32              7      Aficionado 7    38      M             Ciudad A   
+33             46     Aficionado 46    23      F             Ciudad A   
+34             37     Aficionado 37    20      F             Ciudad D   
+35             44     Aficionado 44    22      F             Ciudad A   
+36             15     Aficionado 15    54      M             Ciudad A   
+37             36     Aficionado 36    42      F             Ciudad D   
+38              1      Aficionado 1    45      F             Ciudad B   
+39             22     Aficionado 22    18      F             Ciudad C   
+40             34     Aficionado 34    51      M             Ciudad C   
+41             13     Aficionado 13    49      M             Ciudad A   
+42             31     Aficionado 31    40      M             Ciudad C   
+43             24     Aficionado 24    43      M             Ciudad C   
+44             28     Aficionado 28    19      F             Ciudad B   
+45             32     Aficionado 32    48      F             Ciudad C   
+46             23     Aficionado 23    18      M             Ciudad A   
+47              6      Aficionado 6    37      M             Ciudad B   
+48             48     Aficionado 48    29      M             Ciudad B   
+49             35     Aficionado 35    23      F             Ciudad B   
+
+       Edad Discreta  
+0    Jóven (19 - 35)  
+1    Jóven (19 - 35)  
+2   Adulto (36 - 65)  
+3   Adulto (36 - 65)  
+4   Adulto (36 - 65)  
+5    Jóven (19 - 35)  
+6   Adulto (36 - 65)  
+7    Jóven (19 - 35)  
+8    Jóven (19 - 35)  
+9    Jóven (19 - 35)  
+10   Jóven (19 - 35)  
+11   Jóven (19 - 35)  
+12  Adulto (36 - 65)  
+13   Jóven (19 - 35)  
+14   Jóven (19 - 35)  
+15  Adulto (36 - 65)  
+16  Adulto (36 - 65)  
+17   Jóven (19 - 35)  
+18  Adulto (36 - 65)  
+19   Jóven (19 - 35)  
+20  Adulto (36 - 65)  
+21  Adulto (36 - 65)  
+22   Jóven (19 - 35)  
+23   Jóven (19 - 35)  
+24  Adulto (36 - 65)  
+25   Jóven (19 - 35)  
+26  Adulto (36 - 65)  
+27  Adulto (36 - 65)  
+28  Adulto (36 - 65)    
+29  Adulto (36 - 65)  
+30   Jóven (19 - 35)  
+31  Adulto (36 - 65)  
+32  Adulto (36 - 65)  
+33   Jóven (19 - 35)  
+34   Jóven (19 - 35)  
+35   Jóven (19 - 35)  
+36  Adulto (36 - 65)  
+37  Adulto (36 - 65)  
+38  Adulto (36 - 65)  
+39    Menor (0 - 18)  
+40  Adulto (36 - 65)  
+41  Adulto (36 - 65)  
+42  Adulto (36 - 65)  
+43  Adulto (36 - 65)  
+44   Jóven (19 - 35)  
+45  Adulto (36 - 65)  
+46    Menor (0 - 18)  
+47  Adulto (36 - 65)  
+48   Jóven (19 - 35)  
+49   Jóven (19 - 35)  ","Número de aficionados por rango de edad: Edad Discreta
 Menor (0 - 18)       2
 Jóven (19 - 35)     22
 Adulto (36 - 65)    26
 Name: id_aficionado, dtype: int64"
-2,¿Qué medio publicitario ha generado mayor impacto en términos de asistencia?,eventos + promociones,El medio publicitario que ha generado mayor impacto ha sido la radio.
-3,¿Cuál es la ubicación de residencia que más aficionados aporta a los eventos?,eventos + aficionados,La ubicación que más aporta a los eventos es la Ciudad A.
+2,¿Qué medio publicitario ha generado mayor impacto en términos de asistencia?,"    id_evento nombre_evento fecha_evento ubicación_evento  asistentes_totales  \
+0           1      Evento 1   2023-01-01         Ciudad C                1292   
+1           1      Evento 1   2023-01-01         Ciudad C                1292   
+2           3      Evento 3   2023-01-03         Ciudad A                 254   
+3           4      Evento 4   2023-01-04         Ciudad D                8914   
+4           4      Evento 4   2023-01-04         Ciudad D                8914   
+5           5      Evento 5   2023-01-05         Ciudad C                7647   
+6           6      Evento 6   2023-01-06         Ciudad D                4950   
+7           6      Evento 6   2023-01-06         Ciudad D                4950   
+8           7      Evento 7   2023-01-07         Ciudad C                7734   
+9           7      Evento 7   2023-01-07         Ciudad C                7734   
+10          8      Evento 8   2023-01-08         Ciudad A                7323   
+11          9      Evento 9   2023-01-09         Ciudad D                6840   
+12          9      Evento 9   2023-01-09         Ciudad D                6840   
+13         12     Evento 12   2023-01-12         Ciudad A                7280   
+14         15     Evento 15   2023-01-15         Ciudad D                4243   
+15         15     Evento 15   2023-01-15         Ciudad D                4243   
+16         16     Evento 16   2023-01-16         Ciudad A                3316   
+17         17     Evento 17   2023-01-17         Ciudad C                 739   
+18         17     Evento 17   2023-01-17         Ciudad C                 739   
+19         18     Evento 18   2023-01-18         Ciudad C                1960   
+20         20     Evento 20   2023-01-20         Ciudad A                8914   
+21         20     Evento 20   2023-01-20         Ciudad A                8914   
+22         21     Evento 21   2023-01-21         Ciudad B                9634   
+23         22     Evento 22   2023-01-22         Ciudad B                4028   
+24         22     Evento 22   2023-01-22         Ciudad B                4028   
+25         23     Evento 23   2023-01-23         Ciudad A                 520   
+26         23     Evento 23   2023-01-23         Ciudad A                 520   
+27         25     Evento 25   2023-01-25         Ciudad B                6755   
+28         25     Evento 25   2023-01-25         Ciudad B                6755   
+29         26     Evento 26   2023-01-26         Ciudad B                8913   
+30         27     Evento 27   2023-01-27         Ciudad B                1428   
+31         29     Evento 29   2023-01-29         Ciudad C                9879   
+32         30     Evento 30   2023-01-30         Ciudad B                 271   
+33         30     Evento 30   2023-01-30         Ciudad B                 271   
+34         32     Evento 32   2023-02-01         Ciudad C                7107   
+35         32     Evento 32   2023-02-01         Ciudad C                7107   
+36         33     Evento 33   2023-02-02         Ciudad C                2353   
+37         35     Evento 35   2023-02-04         Ciudad B                1852   
+38         37     Evento 37   2023-02-06         Ciudad A                1520   
+39         37     Evento 37   2023-02-06         Ciudad A                1520   
+40         38     Evento 38   2023-02-07         Ciudad D                6614   
+41         40     Evento 40   2023-02-09         Ciudad C                6055   
+42         41     Evento 41   2023-02-10         Ciudad C                 140   
+43         41     Evento 41   2023-02-10         Ciudad C                 140   
+44         42     Evento 42   2023-02-11         Ciudad A                3612   
+45         42     Evento 42   2023-02-11         Ciudad A                3612   
+46         42     Evento 42   2023-02-11         Ciudad A                3612   
+47         44     Evento 44   2023-02-13         Ciudad B                4226   
+48         44     Evento 44   2023-02-13         Ciudad B                4226   
+49         44     Evento 44   2023-02-13         Ciudad B                4226   
+
+    id_promocion medio_publicitario  presupuesto fecha_inicio   fecha_fin  \
+0             13                 TV        15826   2023-03-02  2023-03-07   
+1             24                 TV         6359   2023-04-26  2023-05-01   
+2              3           Internet         6804   2023-01-11  2023-01-16   
+3              6              Radio        16975   2023-01-26  2023-01-31   
+4             28           Internet        14639   2023-05-16  2023-05-21   
+5              7              Radio        15109   2023-01-31  2023-02-05   
+6             22     Redes Sociales        11495   2023-04-16  2023-04-21   
+7             43     Redes Sociales        19113   2023-07-30  2023-08-04   
+8              4     Redes Sociales         5520   2023-01-16  2023-01-21   
+9             17     Redes Sociales         7510   2023-03-22  2023-03-27   
+10            32           Internet         8252   2023-06-05  2023-06-10   
+11            40     Redes Sociales        17727   2023-07-15  2023-07-20   
+12            48              Radio        14455   2023-08-24  2023-08-29   
+13            10              Radio         6931   2023-02-15  2023-02-20   
+14            39           Internet        14963   2023-07-10  2023-07-15   
+15            46              Radio         8757   2023-08-14  2023-08-19   
+16            49              Radio        15955   2023-08-29  2023-09-03   
+17             5              Radio        19598   2023-01-21  2023-01-26   
+18            37              Radio        15698   2023-06-30  2023-07-05   
+19            29     Redes Sociales        15846   2023-05-21  2023-05-26   
+20            34              Radio         6919   2023-06-15  2023-06-20   
+21            44     Redes Sociales        19671   2023-08-04  2023-08-09   
+22            33                 TV        18066   2023-06-10  2023-06-15   
+23             8           Internet        19111   2023-02-05  2023-02-10   
+24            16                 TV         6428   2023-03-17  2023-03-22   
+25             1              Radio         8880   2023-01-01  2023-01-06   
+26             2              Radio        15767   2023-01-06  2023-01-11   
+27             9                 TV        16730   2023-02-10  2023-02-15   
+28            18           Internet         7685   2023-03-27  2023-04-01   
+29            31                 TV         5138   2023-05-31  2023-06-05   
+30            20                 TV         9436   2023-04-06  2023-04-11   
+31            14              Radio        19090   2023-03-07  2023-03-12   
+32            15           Internet        12307   2023-03-12  2023-03-17   
+33            36                 TV         5528   2023-06-25  2023-06-30   
+34            19     Redes Sociales        12767   2023-04-01  2023-04-06   
+35            21     Redes Sociales        17071   2023-04-11  2023-04-16   
+36            25              Radio        16161   2023-05-01  2023-05-06   
+37            12              Radio        11431   2023-02-25  2023-03-02   
+38            41           Internet         9638   2023-07-20  2023-07-25   
+39            50     Redes Sociales        18431   2023-09-03  2023-09-08   
+40            26                 TV        12974   2023-05-06  2023-05-11   
+41            35                 TV        17314   2023-06-20  2023-06-25   
+42            45     Redes Sociales         9315   2023-08-09  2023-08-14   
+43            47     Redes Sociales        17451   2023-08-19  2023-08-24   
+44            11           Internet        16901   2023-02-20  2023-02-25   
+45            23                 TV        10086   2023-04-21  2023-04-26   
+46            30     Redes Sociales        14168   2023-05-26  2023-05-31   
+47            27     Redes Sociales        11474   2023-05-11  2023-05-16   
+48            38              Radio         5111   2023-07-05  2023-07-10   
+49            42                 TV         7385   2023-07-25  2023-07-30   
+
+    Impacto Promoción  
+0            0.081638  
+1            0.203177  
+2            0.037331  
+3            0.525125  
+4            0.608921  
+5            0.506122  
+6            0.430622  
+7            0.258986  
+8            1.401087  
+9            1.029827  
+10           0.887421  
+11           0.385852  
+12           0.473193  
+13           1.050353  
+14           0.283566  
+15           0.484527  
+16           0.207835  
+17           0.037708  
+18           0.047076  
+19           0.123691  
+20           1.288336  
+21           0.453154  
+22           0.533267  
+23           0.210769  
+24           0.626633  
+25           0.058559  
+26           0.032980  
+27           0.403766  
+28           0.878985  
+29           1.734722  
+30           0.151335  
+31           0.517496  
+32           0.022020  
+33           0.049023  
+34           0.556670  
+35           0.416320  
+36           0.145597  
+37           0.162016  
+38           0.157709  
+39           0.082470  
+40           0.509789  
+41           0.349717  
+42           0.015030  
+43           0.008022  
+44           0.213715  
+45           0.358120  
+46           0.254941  
+47           0.368311  
+48           0.826844  
+49           0.572241  ",El medio publicitario que ha generado mayor impacto ha sido la radio.
+3,¿Cuál es la ubicación de residencia que más aficionados aporta a los eventos?,"    id_evento nombre_evento fecha_evento ubicación_evento  asistentes_totales  \
+0           3      Evento 3   2023-01-03         Ciudad A                 254   
+1           3      Evento 3   2023-01-03         Ciudad A                 254   
+2           3      Evento 3   2023-01-03         Ciudad A                 254   
+3           5      Evento 5   2023-01-05         Ciudad C                7647   
+4           5      Evento 5   2023-01-05         Ciudad C                7647   
+5           7      Evento 7   2023-01-07         Ciudad C                7734   
+6           8      Evento 8   2023-01-08         Ciudad A                7323   
+7           8      Evento 8   2023-01-08         Ciudad A                7323   
+8           8      Evento 8   2023-01-08         Ciudad A                7323   
+9           9      Evento 9   2023-01-09         Ciudad D                6840   
+10         10     Evento 10   2023-01-10         Ciudad B                4104   
+11         10     Evento 10   2023-01-10         Ciudad B                4104   
+12         11     Evento 11   2023-01-11         Ciudad A                1755   
+13         11     Evento 11   2023-01-11         Ciudad A                1755   
+14         13     Evento 13   2023-01-13         Ciudad A                8121   
+15         13     Evento 13   2023-01-13         Ciudad A                8121   
+16         14     Evento 14   2023-01-14         Ciudad A                9761   
+17         15     Evento 15   2023-01-15         Ciudad D                4243   
+18         15     Evento 15   2023-01-15         Ciudad D                4243   
+19         19     Evento 19   2023-01-19         Ciudad C                4442   
+20         19     Evento 19   2023-01-19         Ciudad C                4442   
+21         21     Evento 21   2023-01-21         Ciudad B                9634   
+22         21     Evento 21   2023-01-21         Ciudad B                9634   
+23         24     Evento 24   2023-01-24         Ciudad D                9764   
+24         24     Evento 24   2023-01-24         Ciudad D                9764   
+25         25     Evento 25   2023-01-25         Ciudad B                6755   
+26         25     Evento 25   2023-01-25         Ciudad B                6755   
+27         28     Evento 28   2023-01-28         Ciudad C                8188   
+28         28     Evento 28   2023-01-28         Ciudad C                8188   
+29         28     Evento 28   2023-01-28         Ciudad C                8188   
+30         29     Evento 29   2023-01-29         Ciudad C                9879   
+31         33     Evento 33   2023-02-02         Ciudad C                2353   
+32         33     Evento 33   2023-02-02         Ciudad C                2353   
+33         36     Evento 36   2023-02-05         Ciudad C                8192   
+34         37     Evento 37   2023-02-06         Ciudad A                1520   
+35         37     Evento 37   2023-02-06         Ciudad A                1520   
+36         38     Evento 38   2023-02-07         Ciudad D                6614   
+37         38     Evento 38   2023-02-07         Ciudad D                6614   
+38         41     Evento 41   2023-02-10         Ciudad C                 140   
+39         43     Evento 43   2023-02-12         Ciudad C                7642   
+40         43     Evento 43   2023-02-12         Ciudad C                7642   
+41         44     Evento 44   2023-02-13         Ciudad B                4226   
+42         44     Evento 44   2023-02-13         Ciudad B                4226   
+43         45     Evento 45   2023-02-14         Ciudad B                3188   
+44         45     Evento 45   2023-02-14         Ciudad B                3188   
+45         45     Evento 45   2023-02-14         Ciudad B                3188   
+46         46     Evento 46   2023-02-15         Ciudad C                4582   
+47         48     Evento 48   2023-02-17         Ciudad B                 615   
+48         48     Evento 48   2023-02-17         Ciudad B                 615   
+49         49     Evento 49   2023-02-18         Ciudad C                2461   
+
+    id_aficionado nombre_aficionado  edad género ubicación_residencia  \
+0               2      Aficionado 2    20      F             Ciudad D   
+1              39     Aficionado 39    23      M             Ciudad D   
+2              47     Aficionado 47    48      M             Ciudad D   
+3              16     Aficionado 16    51      F             Ciudad D   
+4              19     Aficionado 19    42      M             Ciudad D   
+5              21     Aficionado 21    34      F             Ciudad D   
+6              12     Aficionado 12    47      F             Ciudad B   
+7              40     Aficionado 40    30      F             Ciudad D   
+8              42     Aficionado 42    31      M             Ciudad D   
+9              27     Aficionado 27    28      F             Ciudad C   
+10             29     Aficionado 29    23      M             Ciudad A   
+11             30     Aficionado 30    21      F             Ciudad C   
+12              8      Aficionado 8    49      M             Ciudad B   
+13             43     Aficionado 43    19      F             Ciudad B   
+14             10     Aficionado 10    23      M             Ciudad B   
+15             18     Aficionado 18    47      M             Ciudad A   
+16              5      Aficionado 5    36      M             Ciudad C   
+17             11     Aficionado 11    20      F             Ciudad A   
+18             25     Aficionado 25    57      F             Ciudad C   
+19             38     Aficionado 38    21      M             Ciudad A   
+20             45     Aficionado 45    52      F             Ciudad C   
+21              9      Aficionado 9    40      M             Ciudad C   
+22             41     Aficionado 41    21      F             Ciudad A   
+23             14     Aficionado 14    20      F             Ciudad A   
+24             33     Aficionado 33    49      M             Ciudad B   
+25              3      Aficionado 3    20      F             Ciudad A   
+26             50     Aficionado 50    42      M             Ciudad B   
+27             17     Aficionado 17    45      M             Ciudad A   
+28             20     Aficionado 20    52      F             Ciudad D   
+29             26     Aficionado 26    45      M             Ciudad C   
+30             49     Aficionado 49    23      F             Ciudad A   
+31              4      Aficionado 4    36      F             Ciudad B   
+32              7      Aficionado 7    38      M             Ciudad A   
+33             46     Aficionado 46    23      F             Ciudad A   
+34             37     Aficionado 37    20      F             Ciudad D   
+35             44     Aficionado 44    22      F             Ciudad A   
+36             15     Aficionado 15    54      M             Ciudad A   
+37             36     Aficionado 36    42      F             Ciudad D   
+38              1      Aficionado 1    45      F             Ciudad B   
+39             22     Aficionado 22    18      F             Ciudad C   
+40             34     Aficionado 34    51      M             Ciudad C   
+41             13     Aficionado 13    49      M             Ciudad A   
+42             31     Aficionado 31    40      M             Ciudad C   
+43             24     Aficionado 24    43      M             Ciudad C   
+44             28     Aficionado 28    19      F             Ciudad B   
+45             32     Aficionado 32    48      F             Ciudad C   
+46             23     Aficionado 23    18      M             Ciudad A   
+47              6      Aficionado 6    37      M             Ciudad B   
+48             48     Aficionado 48    29      M             Ciudad B   
+49             35     Aficionado 35    23      F             Ciudad B   
+
+       Edad Discreta  
+0    Jóven (19 - 35)  
+1    Jóven (19 - 35)  
+2   Adulto (36 - 65)  
+3   Adulto (36 - 65)  
+4   Adulto (36 - 65)  
+5    Jóven (19 - 35)  
+6   Adulto (36 - 65)  
+7    Jóven (19 - 35)  
+8    Jóven (19 - 35)  
+9    Jóven (19 - 35)  
+10   Jóven (19 - 35)  
+11   Jóven (19 - 35)  
+12  Adulto (36 - 65)  
+13   Jóven (19 - 35)  
+14   Jóven (19 - 35)  
+15  Adulto (36 - 65)  
+16  Adulto (36 - 65)  
+17   Jóven (19 - 35)  
+18  Adulto (36 - 65)  
+19   Jóven (19 - 35)  
+20  Adulto (36 - 65)  
+21  Adulto (36 - 65)  
+22   Jóven (19 - 35)  
+23   Jóven (19 - 35)  
+24  Adulto (36 - 65)  
+25   Jóven (19 - 35)  
+26  Adulto (36 - 65)  
+27  Adulto (36 - 65)  
+28  Adulto (36 - 65)  
+29  Adulto (36 - 65)  
+30   Jóven (19 - 35)  
+31  Adulto (36 - 65)  
+32  Adulto (36 - 65)  
+33   Jóven (19 - 35)  
+34   Jóven (19 - 35)  
+35   Jóven (19 - 35)  
+36  Adulto (36 - 65)  
+37  Adulto (36 - 65)  
+38  Adulto (36 - 65)  
+39    Menor (0 - 18)  
+40  Adulto (36 - 65)  
+41  Adulto (36 - 65)  
+42  Adulto (36 - 65)  
+43  Adulto (36 - 65)  
+44   Jóven (19 - 35)  
+45  Adulto (36 - 65)  
+46    Menor (0 - 18)  
+47  Adulto (36 - 65)  
+48   Jóven (19 - 35)  
+49   Jóven (19 - 35)  ",La ubicación que más aporta a los eventos es la Ciudad A.
